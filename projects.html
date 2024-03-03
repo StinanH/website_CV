@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stina Hedman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <a href="./index.html" id="logo">Stin<span>a<br> Hedman.</span></a>
+        <nav>
+            <input type="checkbox" id="nav-toggle">
+            <ul class="menu">
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./career.html">Career</a></li>
+                <li><a href="./projects.html" class="active">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="bars-menu">
+            <label for="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+    </header>
+
+    <main>
+        <div class="info">
+            <h1>My Minimal API</h1>
+            <h3><a href="https://github.com/StinanH/MinimalAPI"><i class="fa-brands fa-github"></i> View project</a></h3>
+            <h4>Simple Webb-API with a REST-architecture that allows for external services annd applikations to get and add data to the application</h4>
+
+        </div>
+
+        <div class="info">
+            <h1>Music API </h1>
+            <h3><a href="https://github.com/Magdagasikara/MusicAPI"><i class="fa-brands fa-github"></i> View project</a></h3>
+            <h4>Group project to practice setting up REST APIs calling external APIs using a console client. With MsTests for unit tests. Worked mainly on the communication with the SpotifyAPI</h4>
+        </div>
+
+        <div class="info">
+            <h1>My First database</h1>
+            <h3><a href="https://github.com/StinanH/DBFirst"><i class="fa-brands fa-github"></i> View project</a></h3>
+            <h4>Simple consoleapplication for testing ways of fetching and presenting data from the northwind database using entity framework and SQL. </h4>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <button id="copyright-button" onclick="colorWhite()"> <i class="fa-regular fa-copyright"></i> Stina Hedman </button>
+        <script src="changeBackground.js"></script>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+            <p>What a pro! <span class="close">&times;</span></p>
+            </div>  
+        </div>
+        <script src="modalScript.js"></script>
+
+    </footer>
+
+
+</body>
+</html>
